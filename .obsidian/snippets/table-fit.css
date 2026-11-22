@@ -1,0 +1,15 @@
+/* Responsive tables with proportional column widths */
+.markdown-rendered table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+/* Content-based column sizing and text wrapping */
+.markdown-rendered th,
+.markdown-rendered td {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    vertical-align: top;
+    padding: 8px;
+}
